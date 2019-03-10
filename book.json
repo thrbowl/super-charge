@@ -1,0 +1,30 @@
+{
+  "gitbook": ">=3.2.3",
+  "title": "超级充电计划",
+  "author": "thrbowl",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "超级充电计划": "https://github.com/thrbowl/super-charger"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "-highlight",
+    "search-plus",
+    "prism",
+    "prism-themes"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    }
+  },
+  "prism": {
+    "css": [
+      "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+    ]
+  }
+}
